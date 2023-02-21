@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Outfit', sans-serif;
+     background-color: hsl(30, 38%, 92%);
+}
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: fit-content;
+    display: flex;
+    background-color: white;
+    
+}
+.container img {
+    width: 250px;
+}
+.container .text{
+    width: 300px;
+    margin-left:25px ;
+}
+.container .text :nth-child(3){
+    margin-bottom: 20px;
+}
+.container .text p{
+    color: #777;
+    line-height: 1.7;
+}
+.container .text .firstP {
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+
+}
+.container .text h1{
+    
+    line-height: 1;
+    margin: 10px 0;
+}
+.container .text .price{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+.container .text h2{
+    color:  hsl(158, 36%, 37%);
+    font-size: xx-large;
+
+
+}
+.container .price p{
+    position: absolute;
+    text-decoration: line-through;
+   
+    margin-left: 125px;
+    margin-top: 9px;
+    font-size: smaller;
+}
+   
+    
+
+.container .icon{
+
+ position: absolute;
+ left: 60px;
+ margin-top: 3px;
+
+}
+
+.container .text span{
+   position: relative;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px;
+    width: 80%;
+    display: block;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}

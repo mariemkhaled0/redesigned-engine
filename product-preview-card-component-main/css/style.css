@@ -1,0 +1,14 @@
+.body
+{
+    margin: 0;
+   
+
+}
+.contanier{
+     background-color :Dark cyan hsl(158, 36%, 37%) Cream hsl(30, 38%, 92%);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+
